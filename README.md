@@ -3,11 +3,9 @@
 ## Teknologi
 
 - PHP 8.2.12
-- Laravel 10.48.28
+- Codeigniter 4.0
 - MariaDB 10.4.32
-- Node.js 21.7.3
-- Jetstream 4.3.1 (Livewire 3.5.20 + Tailwind CSS 3.1.0)
-- Spatie 6.15.0
+- Pusher 7.2
 
 ## Screenshot
 
