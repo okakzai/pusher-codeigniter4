@@ -1,0 +1,18 @@
+1. Terminal: composer create-project codeigniter4/appstarter pusher
+2. Terminal: cd pusher
+3. Terminal: composer require pusher/pusher-php-server
+4. Terminal: code .
+5. VSCode: Edit file '.env'
+6. VSCode: Buat file 'Broadcast.php' di folder 'app/Controllers'
+7. VSCode: Buat file 'form.php' di folder 'app/Views/pusher'
+8. VSCode: Edit file 'Routes.php' di folder 'app/Config'
+9. VSCode: Buat file 'welcome_message.php' di folder 'app/Views'
+10. VSCode: Buat file 'notifikasi.php' di folder 'app/Views/pusher'
+11. Terminal: php spark serve
+12. VS Code: git init
+13. VS Code: git add .
+14. VS Code: git commit -m "Pertamaz"
+15. VS Code: git branch -M main
+16. VS Code: git remote add origin https://github.com/okakzai/pusher-codeigniter4.git
+17. VS Code: git pull origin main --rebase
+18. VS Code: git push -u origin main
