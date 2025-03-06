@@ -12,8 +12,8 @@
     });
 
     var channel = pusher.subscribe('codeigniter4');
-    channel.bind('my-event', function(data) {
-      alert(JSON.stringify(data['message']));
+    channel.bind('pesan', function(data) {
+      alert(JSON.stringify(data['message']['status']));
     });
   </script>
 </head>

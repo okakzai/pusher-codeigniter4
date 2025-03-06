@@ -27,8 +27,11 @@ class Broadcast extends BaseController
             $options
         );
         
-        $data['message'] = $pesan;
-        $pusher->trigger('codeigniter4', 'my-event', $data);
+        $data['message'] = $array = [
+            'id' => 1,
+            'status' => $pesan,
+        ];
+        $pusher->trigger('codeigniter4', 'pesan', $data);
         return redirect()->route('pusher');
     }
 
